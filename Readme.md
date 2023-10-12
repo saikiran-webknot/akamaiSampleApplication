@@ -21,3 +21,6 @@ In another terminal
 npm start
 ``` 
 PORT= 3000
+
+docker run -d -p 6379:6379 --name my-redis-container redis
+docker run -d -p 27017:27017 --name my-mongo-container mongo
